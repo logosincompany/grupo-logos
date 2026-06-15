@@ -46,11 +46,6 @@ export default function Manifesto() {
 
           {/* Rational Box */}
           <div className="p-6 rounded bg-navy-950/60 border border-gold-500/25 hover:border-gold-500/40 transition-all duration-300 shadow-lg relative">
-            <div className="absolute top-3 right-3">
-              <span className="text-[9px] uppercase tracking-wider font-bold px-2 py-0.5 rounded bg-gold-500/10 text-gold-400">
-                LOGOS
-              </span>
-            </div>
             <div className="flex items-center gap-3 text-gold-400 mb-4">
               <Sparkles className="h-5 w-5" />
               <h4 className="text-xs uppercase tracking-wider font-bold">A Filosofia LOGOS: Razão Estruturada</h4>

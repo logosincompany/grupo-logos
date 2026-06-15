@@ -66,7 +66,7 @@ export default function AboutDeryk() {
               {/* Image Container */}
               <div className="w-full h-full overflow-hidden rounded-lg border border-gold-500/20 bg-navy-950 relative shadow-2xl">
                 <Image
-                  src="/images/deryk.jpg"
+                  src="/images/perfil02-HD.png"
                   alt="Deryk Palestrante"
                   fill
                   sizes="(max-w-768px) 100vw, 50vw"
@@ -75,11 +75,6 @@ export default function AboutDeryk() {
                 
                 {/* Visual Accent Layer */}
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent" />
-                
-                {/* Floating logic coordinate elements */}
-                <div className="absolute top-4 left-4 text-[9px] font-mono text-gold-500/30 uppercase tracking-widest">
-                  SYS: LOGOS_REF // SPEAKER_DERYK
-                </div>
               </div>
 
             </div>

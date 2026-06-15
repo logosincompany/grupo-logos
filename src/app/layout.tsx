@@ -26,6 +26,11 @@ export const metadata: Metadata = {
   title: "Grupo LOGOS | Palestras Corporativas Premium por Deryk",
   description: "Te mostro uma nova forma de enxergar o mundo. Palestras corporativas de alto impacto para líderes, empresários e equipes que buscam resultados através da razão.",
   keywords: "palestras corporativas, liderança estratégica, alta performance, deryk, grupo logos, cultura de crescimento, inteligência racional",
+  icons: {
+    icon: "/images/logos-logo.png",
+    shortcut: "/images/logos-logo.png",
+    apple: "/images/logos-logo.png",
+  },
   openGraph: {
     title: "Grupo LOGOS | Te mostro uma nova forma de enxergar o mundo",
     description: "Palestras corporativas de alto impacto para líderes, empresários e equipes que buscam resultados através da razão.",

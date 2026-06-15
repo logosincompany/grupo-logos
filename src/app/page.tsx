@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Manifesto from "@/components/Manifesto";
+import StudentPortal from "@/components/StudentPortal";
 import AboutLogos from "@/components/AboutLogos";
 import AboutDeryk from "@/components/AboutDeryk";
 import TargetAudience from "@/components/TargetAudience";
@@ -31,7 +32,10 @@ export default function Home() {
         {/* Section 2: Manifesto */}
         <Manifesto />
 
-        {/* Section 3: Sobre o Grupo LOGOS */}
+        {/* Section 3: Portal do Aluno (Acesso a Cursos e Conteúdo) */}
+        <StudentPortal />
+
+        {/* Section 4: Sobre o Grupo LOGOS */}
         <AboutLogos />
 
         {/* Section 4: Sobre Deryk */}

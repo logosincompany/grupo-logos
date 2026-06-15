@@ -27,6 +27,7 @@ export default function Navbar({ onOpenProposal }: NavbarProps) {
 
   const navLinks = [
     { name: "Manifesto", href: "#manifesto" },
+    { name: "Portal do Aluno", href: "#portal-aluno" },
     { name: "Sobre", href: "#sobre-logos" },
     { name: "Deryk", href: "#sobre-deryk" },
     { name: "Público", href: "#para-quem" },
@@ -68,7 +69,7 @@ export default function Navbar({ onOpenProposal }: NavbarProps) {
 
           {/* Desktop Nav Links */}
           <div className="hidden lg:flex items-center gap-8">
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-5">
               {navLinks.map((link) => (
                 <a
                   key={link.name}

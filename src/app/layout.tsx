@@ -15,15 +15,21 @@ const inter = Inter({
   weight: ["300", "400", "500", "600", "700", "800"],
 });
 
+const baseUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "https://grupo-logos.vercel.app";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://grupologos.com.br"),
+  metadataBase: new URL(baseUrl),
   title: "Grupo LOGOS | Palestras Corporativas Premium por Deryk",
   description: "Te mostro uma nova forma de enxergar o mundo. Palestras corporativas de alto impacto para líderes, empresários e equipes que buscam resultados através da razão.",
   keywords: "palestras corporativas, liderança estratégica, alta performance, deryk, grupo logos, cultura de crescimento, inteligência racional",
   openGraph: {
     title: "Grupo LOGOS | Te mostro uma nova forma de enxergar o mundo",
     description: "Palestras corporativas de alto impacto para líderes, empresários e equipes que buscam resultados através da razão.",
-    url: "https://grupologos.com.br",
+    url: baseUrl,
     siteName: "Grupo LOGOS",
     locale: "pt_BR",
     type: "website",

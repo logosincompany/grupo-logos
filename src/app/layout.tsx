@@ -16,9 +16,32 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://grupologos.com.br"),
   title: "Grupo LOGOS | Palestras Corporativas Premium por Deryk",
-  description: "Descubra uma nova forma de enxergar o mundo. Palestras corporativas de alto impacto para líderes, empresários e equipes que buscam resultados através da razão, clareza e mudança de mentalidade.",
+  description: "Te mostro uma nova forma de enxergar o mundo. Palestras corporativas de alto impacto para líderes, empresários e equipes que buscam resultados através da razão.",
   keywords: "palestras corporativas, liderança estratégica, alta performance, deryk, grupo logos, cultura de crescimento, inteligência racional",
+  openGraph: {
+    title: "Grupo LOGOS | Te mostro uma nova forma de enxergar o mundo",
+    description: "Palestras corporativas de alto impacto para líderes, empresários e equipes que buscam resultados através da razão.",
+    url: "https://grupologos.com.br",
+    siteName: "Grupo LOGOS",
+    locale: "pt_BR",
+    type: "website",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 1200,
+        alt: "Grupo LOGOS - Te mostro uma nova forma de enxergar o mundo.",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Grupo LOGOS | Te mostro uma nova forma de enxergar o mundo",
+    description: "Palestras corporativas de alto impacto para líderes, empresários e equipes que buscam resultados através da razão.",
+    images: ["/images/og-image.png"],
+  },
 };
 
 export default function RootLayout({

@@ -1,26 +1,119 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand Navy & Dark Palette */
+  --background: #050914;
+  --foreground: #f8fafc;
+  
+  --navy-950: #03060d;
+  --navy-900: #050914;
+  --navy-850: #0a1024;
+  --navy-800: #0f172a;
+  --navy-700: #1e293b;
+  
+  /* Brand Gold Palette */
+  --gold-300: #f3e5ab;
+  --gold-400: #e6c65d;
+  --gold-500: #d4af37;
+  --gold-600: #b38f19;
+  --gold-700: #8c6d0e;
+  
+  --font-serif: var(--font-cormorant);
+  --font-sans: var(--font-inter);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  
+  --color-navy-950: var(--navy-950);
+  --color-navy-900: var(--navy-900);
+  --color-navy-850: var(--navy-850);
+  --color-navy-800: var(--navy-800);
+  --color-navy-700: var(--navy-700);
+  
+  --color-gold-300: var(--gold-300);
+  --color-gold-400: var(--gold-400);
+  --color-gold-500: var(--gold-500);
+  --color-gold-600: var(--gold-600);
+  --color-gold-700: var(--gold-700);
+  
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Custom premium transitions and scroll behavior */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+/* Shimmer, gradients, and custom shadows for premium look */
+.gold-gradient {
+  background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 50%, #8c6d0e 100%);
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 50%, #b38f19 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navy-gold-border {
+  border-image: linear-gradient(to right, #050914, #d4af37, #050914) 1;
+}
+
+.glow-btn {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.glow-btn:hover {
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+}
+
+/* Keyframes for subtle background animations */
+@keyframes slow-pan {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-slow-pan {
+  background-size: 200% 200%;
+  animation: slow-pan 20s ease infinite;
+}
+
+/* Custom scrollbar to match premium look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--navy-950);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--navy-800);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-500);
 }

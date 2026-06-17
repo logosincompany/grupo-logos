@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  /* Brand Navy & Dark Palette */
-  --background: #050914;
+  /* Brand Black & Dark Palette (Preto Obsidiana) */
+  --background: #0a0a0c;
   --foreground: #f8fafc;
   
-  --navy-950: #03060d;
-  --navy-900: #050914;
-  --navy-850: #0a1024;
-  --navy-800: #0f172a;
-  --navy-700: #1e293b;
+  --navy-950: #050506;
+  --navy-900: #0a0a0c;
+  --navy-850: #121214;
+  --navy-800: #18181c;
+  --navy-700: #27272a;
   
   /* Brand Gold Palette */
   --gold-300: #f3e5ab;
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navy-gold-border {
-  border-image: linear-gradient(to right, #050914, #d4af37, #050914) 1;
+  border-image: linear-gradient(to right, #0a0a0c, #d4af37, #0a0a0c) 1;
 }
 
 .glow-btn {

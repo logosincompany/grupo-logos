@@ -54,15 +54,15 @@ export default function Themes() {
     <section id="temas" className="py-24 bg-navy-900 border-y border-gold-500/10 relative overflow-hidden">
       
       {/* Background Image with low opacity */}
-      <div className="absolute inset-0 z-0 opacity-70 pointer-events-none">
+      <div className="absolute inset-0 z-0 opacity-60 pointer-events-none">
         <Image
           src="/images/palestras-bg.jpg"
           alt="Palestra Grupo LOGOS"
           fill
           className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-navy-900 via-transparent to-navy-900" />
-        <div className="absolute inset-0 bg-gradient-to-r from-navy-900 via-transparent to-navy-900" />
+        <div className="absolute inset-0 bg-linear-to-b from-navy-900 via-transparent to-navy-900" />
+        <div className="absolute inset-0 bg-linear-to-r from-navy-900 via-transparent to-navy-900" />
       </div>
       
       {/* Glow highlight */}

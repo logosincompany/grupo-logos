@@ -14,6 +14,7 @@ import Testimonials from "@/components/Testimonials";
 import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
 import ProposalModal from "@/components/ProposalModal";
+import ChatWidget from "@/components/ChatWidget";
 
 export default function Home() {
   const [isProposalOpen, setIsProposalOpen] = useState(false);
@@ -66,6 +67,10 @@ export default function Home() {
         isOpen={isProposalOpen}
         onClose={() => setIsProposalOpen(false)}
       />
+
+      {/* Floating Interactive Virtual Assistant Chat Widget */}
+      <ChatWidget />
     </>
   );
 }
+

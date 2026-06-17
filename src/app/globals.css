@@ -117,3 +117,26 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--gold-500);
 }
+
+/* Spritesheet Avatar Animations for Deryk (3x2 grid of 512x512px frames) */
+@keyframes deryk-talk {
+  0%, 16.66% { background-position: 0% 0%; }
+  16.67%, 33.33% { background-position: 50% 0%; }
+  33.34%, 50% { background-position: 100% 0%; }
+  50.01%, 66.66% { background-position: 0% 100%; }
+  66.67%, 83.33% { background-position: 50% 100%; }
+  83.34%, 100% { background-position: 100% 100%; }
+}
+
+.deryk-avatar-talk {
+  background-image: url('/images/deryk-spread.png');
+  background-size: 300% 200%;
+  animation: deryk-talk 1.2s steps(1) infinite;
+}
+
+.deryk-avatar-idle {
+  background-image: url('/images/deryk-spread.png');
+  background-size: 300% 200%;
+  background-position: 0% 0%;
+}
+

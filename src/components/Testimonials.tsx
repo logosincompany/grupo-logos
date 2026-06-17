@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { Quote, Star } from "lucide-react";
 
 export default function Testimonials() {
@@ -28,7 +29,20 @@ export default function Testimonials() {
   return (
     <section id="depoimentos" className="py-24 bg-navy-900 border-t border-gold-500/10 relative overflow-hidden">
       
-      {/* Background vectors */}
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0 opacity-80 pointer-events-none">
+        <Image
+          src="/images/testimonials-bg.png"
+          alt="Depoimentos Background"
+          fill
+          priority
+          className="object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-linear-to-b from-navy-900 via-transparent to-navy-900" />
+        <div className="absolute inset-0 bg-linear-to-r from-navy-900 via-transparent to-navy-900" />
+      </div>
+
+      {/* Background vectors / Glow */}
       <div className="absolute left-1/4 top-1/4 w-96 h-96 bg-gold-500/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -57,7 +71,7 @@ export default function Testimonials() {
           {testimonials.map((t, idx) => (
             <div
               key={idx}
-              className="p-8 rounded-lg bg-navy-950 border border-gold-500/5 hover:border-gold-500/20 shadow-xl flex flex-col justify-between relative group transition-all duration-300"
+              className="p-8 rounded-lg bg-navy-950/70 backdrop-blur-sm border border-gold-500/10 hover:border-gold-500/30 shadow-2xl flex flex-col justify-between relative group transition-all duration-300"
             >
               
               {/* Gold Quote badge */}

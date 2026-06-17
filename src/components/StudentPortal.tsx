@@ -97,7 +97,7 @@ export default function StudentPortal() {
 
                 {/* Main Action Button */}
                 <a
-                  href="https://logosincompany.com.br/login"
+                  href="https://ead.logosincompany.com.br/login"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="glow-btn mt-8 w-full py-4 bg-gold-500 hover:bg-gold-600 text-navy-950 text-xs font-semibold uppercase tracking-widest rounded shadow-xl transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer text-center font-sans"

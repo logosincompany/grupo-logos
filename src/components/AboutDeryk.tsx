@@ -16,7 +16,7 @@ export default function AboutDeryk() {
               O Palestrante Principal
             </span>
             <h2 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-serif text-white font-light">
-              Deryk | <span className="font-normal italic gold-text-gradient">Pensamento Estratégico</span>
+              Deryk Rodrigues | <span className="font-normal italic gold-text-gradient">Pensamento Estratégico</span>
             </h2>
 
             {/* MOCK DATA — substituir por dados reais do cliente */}
@@ -58,7 +58,7 @@ export default function AboutDeryk() {
 
           {/* Image Column */}
           <div className="lg:col-span-5 flex justify-center">
-            <div className="relative w-80 h-96 md:w-96 md:h-[460px]">
+            <div className="relative w-80 h-96 md:w-96 md:h-115">
               
               {/* Elegant Gold Framing Details */}
               <div className="absolute inset-0 border border-gold-500/20 rounded-lg translate-x-4 translate-y-4 -z-10 pointer-events-none" />
@@ -66,7 +66,7 @@ export default function AboutDeryk() {
               {/* Image Container */}
               <div className="w-full h-full overflow-hidden rounded-lg border border-gold-500/20 bg-navy-950 relative shadow-2xl">
                 <Image
-                  src="/images/perfil02-HD.png"
+                  src="/images/zperfil01.jpeg"
                   alt="Deryk Palestrante"
                   fill
                   sizes="(max-w-768px) 100vw, 50vw"
@@ -74,7 +74,7 @@ export default function AboutDeryk() {
                 />
                 
                 {/* Visual Accent Layer */}
-                <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-navy-950/80 via-transparent to-transparent" />
               </div>
 
             </div>

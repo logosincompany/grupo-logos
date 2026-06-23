@@ -64,7 +64,7 @@ Deryk oferece 6 módulos de palestras e workshops personalizáveis para as dores
 ## 4. Portal do Aluno
 
 * **O que é**: Área exclusiva voltada a alunos e participantes das palestras de Deryk para continuação do desenvolvimento intelectual.
-* **Link de Acesso**: `https://ead.logosincompany.com.br/login`
+* **Link de Acesso**: `https://academylogos.com.br/login`
 * **Recursos Disponíveis**:
   - Videoaulas e cursos complementares que aprofundam os conceitos abordados nos eventos.
   - Materiais de apoio para download, incluindo os slides da palestra, resumos estruturados e PDFs para consolidação de conteúdo.

@@ -56,7 +56,7 @@ Eu sou o assistente virtual do **Deryk Rodrigues**. Como a chave está ausente, 
 - O **Grupo LOGOS** baseia-se na razão e na lógica estruturada, simbolizado pela coruja da sabedoria.
 - Evitamos coachings motivacionais e focamos em **métodos práticos** e consistência estoica.
 - Deryk ministra palestras em 6 temas principais, incluindo *Mudança de Mentalidade Racional* e *Liderança de Alta Performance*.
-- Alunos pós-palestras podem acessar o portal exclusivo em [ead.logosincompany.com.br/login](https://ead.logosincompany.com.br/login).
+- Alunos pós-palestras podem acessar o portal exclusivo em [https://academylogos.com.br/login](https://academylogos.com.br/login).
 
 *O que você gostaria de saber? Assim que a chave for inserida, estarei 100% online!*`;
 
@@ -102,7 +102,7 @@ Regras de comportamento:
 1. **Tom e Voz**: Use um tom profissional, direto, elegante e levemente intelectual/técnico (estilo terminal premium). Seja cordial, mas evite sentimentalismo exagerado ou jargões vazios de autoajuda.
 2. **Base de Conhecimento**: Responda às perguntas utilizando o contexto institucional fornecido abaixo. Se a pergunta não puder ser respondida com base no contexto, responda de forma honesta, dizendo que não possui essa informação específica, mas direcione o usuário para preencher o formulário de proposta ou entrar em contato.
 3. **Formatação**: Use formatação Markdown rica (títulos H2, listas, tabelas, links). Quando mencionar links, garanta que estejam no formato padrão do Markdown.
-4. **Portal do Aluno**: Se o usuário for um aluno ou perguntar sobre material de apoio, slides ou aulas complementares pós-palestra, sempre oriente-o a acessar o Portal do Aluno no link: https://ead.logosincompany.com.br/login usando as credenciais recebidas.
+4. **Portal do Aluno**: Se o usuário for um aluno ou perguntar sobre material de apoio, slides ou aulas complementares pós-palestra, sempre oriente-o a acessar o Portal do Aluno no link: https://academylogos.com.br/login usando as credenciais recebidas.
 5. **Propostas**: Se o usuário demonstrar interesse em contratar, solicitar orçamento ou agendar palestras, oriente-o a clicar no botão "Solicitar Proposta" para abrir o modal de proposta no site.
 
 Contexto Institucional (ABOUTLOGOS.md):
